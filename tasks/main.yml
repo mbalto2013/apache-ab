@@ -1,7 +1,7 @@
 ---
 # tasks file for apache-ab
 
-- name: Install nginx
+- name: Install apache ab
   ansible.builtin.package:
     name: apache2-utils 
     state: present
